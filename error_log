@@ -1,0 +1,16 @@
+[26-Oct-2021 10:29:03 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/azadfish/public_html/app/Http/Controllers/Frontend/CheckoutController.php on line 57
+[26-Oct-2021 10:30:31 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/azadfish/public_html/app/Http/Controllers/Frontend/CheckoutController.php on line 57
+[26-Oct-2021 10:32:54 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/azadfish/public_html/app/Http/Controllers/Frontend/CheckoutController.php on line 57
+[26-Oct-2021 10:35:05 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/azadfish/public_html/app/Http/Controllers/Frontend/CheckoutController.php on line 57
+[26-Oct-2021 10:36:02 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/azadfish/public_html/app/Http/Controllers/Frontend/CheckoutController.php on line 59
+[26-Oct-2021 10:37:44 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/azadfish/public_html/app/Http/Controllers/Frontend/CheckoutController.php on line 58
+[10-Nov-2021 05:53:04 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined property: ErrorException::$statusCode in /home/azadfish/public_html/app/Exceptions/Handler.php:53
+Stack trace:
+#0 /home/azadfish/public_html/app/Exceptions/Handler.php(53): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined prope...', '/home/azadfish/...', 53, Array)
+#1 /home/azadfish/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(119): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ErrorException))
+#2 /home/azadfish/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(96): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#3 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#4 {main}
+  thrown in /home/azadfish/public_html/app/Exceptions/Handler.php on line 53
+[24-Nov-2021 09:51:44 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home/azadfish/public_html/app/Http/Controllers/Admin/HomeController.php on line 37
+[24-Nov-2021 09:51:49 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 132124672 bytes) in /home/azadfish/public_html/app/Http/Controllers/Admin/HomeController.php on line 37
